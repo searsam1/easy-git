@@ -6,7 +6,7 @@ def factorial(n):
     n! = 1 * 2 * 3
     n! = 6 
   """
-  prod = 0 
+  prod = 1
   for i in range(2, n+1):
     prod *= i
   return prod 
