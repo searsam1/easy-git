@@ -1,7 +1,8 @@
 # By AS
 def factorial(n):
   """
-  Return n! (n factorial): 
+  n! = n × (n-1) × (n-2) × …1  
+  Return n!
   example: n = 3
     n! = 1 * 2 * 3
     n! = 6 
