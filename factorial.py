@@ -1,5 +1,6 @@
 # By AS
-def factorial(n):
+import math
+def fact(n):
   """
   n! = n × (n-1) × (n-2) × …1  
   Return n!
@@ -13,7 +14,8 @@ def factorial(n):
   return prod 
 
 def main():
-  assert factorial(3) == 6
+  for i in range(100):
+    assert math.factorial(i) == fact(i)
   print("Tests Passed")
 
 if __name__ == "__main__":
